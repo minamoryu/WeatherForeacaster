@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Прогноз погоди</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-static/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<div class="container">
+
+    <body>
+
+        <header>
+            <div id="body-header">
+                <div class="col-md-4">
+                    <h1 id="top_header">Прогноз погоди</h1>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img src="assets/img/search.png" style="width: 20px; height: 20px;">
+                        </span>
+                        <input type="text" id="nameOfCity" class="form-control" placeholder="Пошук"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+            <div id="body-footer">
+                <div class="col-md-1" id="today-btn">
+                    <button class="btn header-btn" id="today">Согодні</button>
+                </div>
+                <div class="col-md-1" id="forecast-btn">
+                    <button class="btn header-btn" id="forecast">Прогноз</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <section id="display">
+                    <!-- Placeholder 1 -->
+                </section>
+                <section id="display2">
+                    <!-- Placeholder 2 -->
+                </section>
+                <section id="display3">
+                    <!-- Placeholder 3 -->
+                    <div id="lab_header" class="header">
+                        <label>Найближчі місця</label>
+                    </div>
+                    <div class="row nearby_places">
+                        <div id="city1" class="col-md-5 nearby_places_card">
+
+                        </div>
+                        <div id="city2" class="col-md-5 nearby_places_card">
+
+                        </div>
+                        <div id="city3" class="col-md-5 nearby_places_card">
+
+                        </div>
+                        <div id="city4" class="col-md-5 nearby_places_card">
+
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <hr />
+
+        <footer>
+            Copyright: &copy; IT-Academy STEP&trade; - Kyiv, 2023
+        </footer>
+
+</div>
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script type="module" src="assets/js/models.js"></script>
+<script type="module" src="assets/js/services.js"></script>
+<script type="module" src="assets/js/second_Page.js"></script>
+<script type="module" src="assets/js/secondVidget.js"></script>
+<script type="module" src="assets/js/firstVidget.js"></script>
+<script type="module" src="assets/js/errorPage.js"></script>
+<script type="module" src="assets/js/searchCity.js"></script>
+<script type="module" src="assets/js/autoSearchCity.js"></script>
+<script type="module" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

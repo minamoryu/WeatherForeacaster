@@ -1,0 +1,79 @@
+/* --- Media ---  */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+
+    html {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    .btn-group {
+        font-size: 0.90em;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 365px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .nearby_places {
+        margin-right: 10px;
+    }
+
+    .group-button {
+        margin: 3px;
+    }
+
+    #body-header {
+        justify-content:space-evenly;
+    }
+
+    #body-header {
+        font-size: 0.90em;
+    }
+
+    .parCard {
+        display: none;
+    }
+
+    #main_logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .label_Date {
+        display: none;
+    }
+
+    p {
+        margin: 1px;
+    }
+
+    .btn-group {
+        max-width: 130px;
+        height: 80px;
+        
+    }
+}
+
+@media (max-width: 365px) {
+    html {
+        width: 365px;
+    }
+}
